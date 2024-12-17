@@ -1,0 +1,49 @@
+<!doctype html>
+<!-- Declaração do tipo de documento HTML5. Isso é necessário para que o navegador saiba que estamos usando HTML5. -->
+<html>
+
+<head>
+    <!-- O cabeçalho da página onde são definidos os metadados, links para arquivos de estilo, scripts e o título. -->
+
+    <!-- O título da página, que aparece na aba do navegador ou na barra de título. É importante para SEO e para o usuário identificar o conteúdo da página. -->
+    <title>Trabalhando com formulários</title>
+
+    <!-- A codificação de caracteres UTF-8 é importante para garantir que todos os caracteres sejam exibidos corretamente, incluindo caracteres especiais. -->
+    <meta charset="utf-8" />
+
+    <!-- O link para o arquivo de estilo CSS externo. Ele estiliza a página e define como os elementos serão exibidos visualmente. -->
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+</head>
+
+<body>
+    <!-- Corpo da página onde os elementos visíveis para o usuário são colocados. -->
+
+    <!-- O formulário onde o usuário pode interagir com a página. O atributo 'action' define para onde os dados serão enviados quando o formulário for enviado, e 'method' especifica o método de envio (GET ou POST). -->
+    <form action="" method="get">
+        <!-- O rótulo para o campo de entrada de texto, associando-se ao campo através do 'for' (que corresponde ao 'id' do campo de entrada). -->
+        <label for="nome">Nome:</label>
+        
+        <!-- Campo de texto onde o usuário pode digitar seu nome. O atributo 'placeholder' oferece um texto sugestivo sobre o que deve ser inserido. -->
+        <input id="nome" type="text" placeholder="Digite seu nome" name="nome" />
+
+        <!-- Pergunta sobre se o usuário gostou do site. A resposta pode ser "sim" ou "não", representada por radio buttons. -->
+        <label for="opcao">Você gostou do site?</label>
+        <input type="radio" name="opcao" value="sim" checked="checked" />Sim
+        <input type="radio" name="opcao" value="nao" />Não
+
+        <!-- Pergunta sobre o interesse em aprender mais sobre HTML ou CSS. Usamos checkboxes para permitir selecionar várias opções. -->
+        <label for="linguagem">Você quer aprender mais sobre:</label>
+        <input type="checkbox" name="html" />HTML
+        <input type="checkbox" name="css" />CSS
+
+        <!-- Área de texto onde o usuário pode escrever uma resposta mais longa. -->
+        <textarea placeholder="Escreva algo..."></textarea>
+
+        <!-- Botão de envio do formulário. Quando clicado, o formulário é enviado. -->
+        <input type="submit" value="Enviar" />
+    </form>
+
+</body>
+
+</html>
+

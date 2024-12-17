@@ -1,0 +1,31 @@
+/* Estilo para os elementos de formulário como label, inputs e textarea. Exibindo-os como blocos. */
+label, input[type=submit], input[type=text], textarea {
+    display: block; /* Exibe cada elemento de formulário em uma nova linha (bloco), criando um layout mais organizado. */
+    margin-bottom: 10px; /* Espaçamento abaixo de cada elemento para separá-los e evitar que fiquem colados. */
+}
+
+/* Estilo específico para o campo <textarea>. Aqui definimos o tamanho e a aparência da área de texto. */
+textarea {
+    width: 300px; /* Define a largura da área de texto para 300px */
+    height: 80px; /* Define a altura da área de texto para 80px */
+    padding: 10px; /* Adiciona espaço interno entre o conteúdo e a borda da área de texto */
+    font-size: 14px; /* Define o tamanho da fonte para tornar a leitura mais confortável */
+    font-family: Helvetica, sans-serif; /* Define a fonte da área de texto */
+}
+
+/* Estilo para o botão de envio (input[type=submit]). */
+input[type=submit] {
+    background: #333333; /* Cor de fundo do botão (um tom de cinza escuro) */
+    color: #ffffff; /* Cor do texto dentro do botão (branco) */
+    padding: 10px 20px; /* Adiciona preenchimento interno ao botão, tornando-o maior e mais fácil de clicar */
+    border: 0; /* Remove qualquer borda padrão do botão */
+    cursor: pointer; /* Muda o cursor para uma mãozinha ao passar sobre o botão, indicando que ele é clicável */
+    font-size: 16px; /* Tamanho da fonte do botão */
+    font-family: Helvetica, sans-serif; /* Define a fonte do texto dentro do botão */
+}
+
+/* Efeito de hover para o botão de envio. Altera a cor de fundo quando o mouse passa sobre ele. */
+input[type=submit]:hover {
+    background: #555555; /* Cor de fundo mais clara quando o mouse passa sobre o botão */
+}
+
