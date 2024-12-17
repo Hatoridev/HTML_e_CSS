@@ -1,0 +1,25 @@
+/* Reset básico para estilos padrão dos navegadores */
+html {
+  line-height: 1.15; /* Ajusta o espaçamento entre linhas */
+  font-size: 100%;  /* Define o tamanho base da fonte */
+}
+
+body {
+  margin: 0; /* Remove margens padrão */
+}
+
+h1, h2, h3, p {
+  margin: 0; /* Remove margens dos títulos e parágrafos */
+}
+
+/* Definição de uma base uniforme para listas */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* Garante que o link herde a cor */
+}
+

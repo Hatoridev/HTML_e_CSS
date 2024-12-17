@@ -1,0 +1,27 @@
+/* Configuração geral */
+body {
+  font-family: Arial, sans-serif; /* Fonte padrão */
+  line-height: 1.6; /* Linha espaçada */
+  color: #333; /* Cor do texto */
+  margin: 0;
+}
+
+.container {
+  width: 90%; /* Largura responsiva */
+  margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+/* Grids principais */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsivo */
+  gap: 20px; /* Espaçamento entre itens */
+}
+
+.grid-item {
+  background: #f5f5f5; /* Fundo claro */
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd; /* Bordas finas */
+}
+

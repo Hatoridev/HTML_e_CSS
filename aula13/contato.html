@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <!-- Metadados básicos -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empresa Fictícia | Contato</title>
+  <!-- Estilos CSS -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <div class="container">
+      <h1 class="logo">Empresa Fictícia</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Sobre Nós</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Formulário de contato -->
+  <main>
+    <section>
+      <h2>Entre em contato</h2>
+      <p>Preencha o formulário abaixo e entraremos em contato o mais breve possível:</p>
+
+      <!-- Formulário estruturado -->
+      <form action="#" method="POST" class="form-grid">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem aqui" required></textarea>
+
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2024 Empresa Fictícia. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
+
+<!--
+Explicação do arquivo:
+1. Página destinada ao contato com a empresa.
+2. O formulário utiliza uma classe chamada "form-grid" para organização.
+   - Grids alinham rótulos, campos de texto e o botão de envio.
+3. Os campos possuem atributos como "required" para validar o preenchimento.
+-->
+
