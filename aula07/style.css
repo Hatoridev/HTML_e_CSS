@@ -1,0 +1,13 @@
+/* Estilo para links com a classe 'link' */
+.link {
+    color: green; /* Define a cor do texto como verde */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-size: 18px; /* Define o tamanho da fonte */
+    font-family: helvetica, sans-serif; /* Define a família da fonte */
+}
+
+/* Estilo para o link com o id 'segundo' */
+#segundo {
+    color: orange; /* Define a cor do texto como laranja */
+}
+
