@@ -1,0 +1,24 @@
+/* Remove todas as margens, paddings e bordas padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Inclui bordas e paddings no cálculo do tamanho total do elemento */
+}
+
+/* Define o estilo padrão para o HTML e o corpo */
+html, body {
+    height: 100%; /* Garante que ocupem toda a altura disponível */
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+}
+
+/* Remove o estilo padrão de listas */
+ul, ol {
+    list-style: none; /* Remove marcadores de lista */
+}
+
+/* Remove o sublinhado e as cores padrão de links */
+a {
+    text-decoration: none;
+    color: inherit; /* Herda a cor do pai */
+}
+
