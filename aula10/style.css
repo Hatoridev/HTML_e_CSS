@@ -1,0 +1,19 @@
+/* Estilos básicos para todos os parágrafos (<p>) */
+p {
+    color: #ff6600; /* Cor do texto em laranja */
+    letter-spacing: -1px; /* Reduz levemente o espaçamento entre as letras para compactar */
+    text-transform: capitalize; /* Capitaliza a primeira letra de cada palavra */
+    width: 650px; /* Define uma largura fixa para os parágrafos */
+    text-shadow: 1px 1px 1px black; /* Adiciona uma sombra leve no texto para destacar */
+    font-size: 18px; /* Aumenta o tamanho da fonte para melhorar a leitura */
+    font-family: Arial, sans-serif; /* Define a fonte como Arial, com alternativa sans-serif */
+    margin-bottom: 15px; /* Adiciona espaço entre os parágrafos */
+}
+
+/* Estilo específico para o parágrafo com a classe "p1" */
+.p1 {
+    font-weight: bold; /* Torna o texto do primeiro parágrafo em negrito para destacá-lo */
+    line-height: 1.5; /* Aumenta o espaçamento entre as linhas para melhorar a legibilidade */
+    text-align: justify; /* Alinha o texto às margens esquerda e direita para um visual mais limpo */
+}
+
