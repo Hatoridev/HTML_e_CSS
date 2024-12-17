@@ -1,6 +1,6 @@
 # HTML_e_CSS  
 
-Repository containing examples of web development using HTML and CSS.  
+Repository containing small introductory examples of web development languages, HTML and CSS.
 
 ## How to Run  
 
@@ -53,7 +53,6 @@ Repository containing examples of web development using HTML and CSS.
      http://<your-device-ip>:8000/file.html
      ```  
 
----
 
 ### Windows:  
 1. **Install Git**:  
@@ -93,7 +92,6 @@ Repository containing examples of web development using HTML and CSS.
      http://localhost:8000
      ```  
 
----
 
 ### Debian/Linux:  
 1. **Install required packages**:  
@@ -143,7 +141,6 @@ Repository containing examples of web development using HTML and CSS.
      http://<your-device-ip>:8000/file.html
      ```  
 
----
 
 ## Languages  
 
