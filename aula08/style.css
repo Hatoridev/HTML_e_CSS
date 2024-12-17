@@ -1,0 +1,65 @@
+/* Definindo a fonte do corpo do site */
+body {
+    font-family: Helvetica, sans-serif; /* A fonte do corpo do site será Helvetica ou, caso não tenha, uma fonte genérica sans-serif */
+}
+
+/* Estilo para links não visitados (links normais) e links visitados */
+a:link, a:visited {
+    color: #ff6600; /* Cor do texto dos links será laranja (#ff6600) */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+/* Estilo para links quando o mouse passa por cima (hover) */
+a:hover {
+    text-decoration: underline; /* Quando o mouse passa por cima do link, o sublinhado é ativado */
+}
+
+/* Estilo para o wrapper (contêiner principal da página) */
+#wrap {
+    width: 960px; /* O contêiner tem uma largura fixa de 960px */
+    margin: auto; /* Centraliza o contêiner horizontalmente */
+    background: #e3e303; /* A cor de fundo do contêiner será amarela */
+    padding: 10px 20px; /* Adiciona espaçamento interno ao redor do conteúdo (10px em cima e embaixo, 20px nas laterais) */
+}
+
+/* Estilo para o menu de navegação dentro do cabeçalho */
+header nav ul {
+    list-style: none; /* Remove as bolinhas da lista */
+    padding-left: 0; /* Remove o espaçamento à esquerda da lista */
+}
+
+/* Estilo para cada item de menu dentro da lista */
+header nav ul li {
+    display: inline-block; /* Exibe os itens de menu na mesma linha */
+    margin-right: 10px; /* Adiciona espaço entre os itens do menu */
+}
+
+/* Estilo para os links dentro dos itens de menu */
+header nav ul li a {
+    font-size: 18px; /* Define o tamanho da fonte para os links do menu */
+}
+
+/* Estilo para a área de conteúdo principal */
+#content {
+    float: left; /* Faz com que a área de conteúdo flutue à esquerda */
+    width: 660px; /* A largura do conteúdo será de 660px */
+}
+
+/* Estilo para a barra lateral (sidebar) */
+#sidebar {
+    float: right; /* A barra lateral vai flutuar à direita */
+    width: 300px; /* A largura da sidebar será de 300px */
+}
+
+/* Estilo para os itens de lista dentro da sidebar */
+#sidebar ul {
+    list-style: none; /* Remove as bolinhas da lista */
+    padding-left: 0; /* Remove o espaçamento à esquerda */
+}
+
+/* Estilo para o rodapé */
+footer {
+    clear: both; /* Limpa qualquer flutuação anterior (do conteúdo ou sidebar) */
+    text-align: center; /* Centraliza o texto dentro do rodapé */
+}
+
