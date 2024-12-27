@@ -1,6 +1,6 @@
 # HTML_e_CSS  
 
-Repository containing small introductory examples of web development languages, HTML and CSS.
+Repository containing small introductory examples of web development languages, HTML and CSS.  
 
 ## How to Run  
 
@@ -29,6 +29,11 @@ Repository containing small introductory examples of web development languages, 
    - Identify the process using the port:  
      ```bash  
      lsof -i :8000  
+     ```  
+     **Example Output**:  
+     ```bash  
+     COMMAND   PID    USER    FD   TYPE DEVICE SIZE/OFF NODE NAME  
+     busybox  12345  username  7u  IPv4  123456  0t0    TCP *:8000 (LISTEN)  
      ```  
    - Kill the process (replace `12345` with the actual PID):  
      ```bash  
@@ -72,15 +77,20 @@ Repository containing small introductory examples of web development languages, 
      - Place the directories in the `www` folder.  
      - Start the WampServer service.  
 
-4. **If port 8000 is already in use**:  
-   - Check which process is using the port:  
+4. **If you encounter "Address already in use" error**:  
+   - Open Command Prompt and identify the process using the port:  
      ```bash  
      netstat -ano | findstr :8000  
      ```  
-   - Kill the process (replace `12345` with the actual PID):  
+     **Example Output**:  
+     ```bash  
+     TCP    0.0.0.0:8000             0.0.0.0:0                 LISTENING       12345  
+     ```  
+   - Find the process ID (PID) and kill the process (replace `12345` with the actual PID):  
      ```bash  
      taskkill /PID 12345 /F  
      ```  
+   - Retry starting the server using XAMPP or WampServer.  
 
 5. **Open the page in your browser**:  
    - **For specific files** (e.g., `file.html`):  
@@ -118,6 +128,11 @@ Repository containing small introductory examples of web development languages, 
      ```bash  
      lsof -i :8000  
      ```  
+     **Example Output**:  
+     ```bash  
+     COMMAND   PID    USER    FD   TYPE DEVICE SIZE/OFF NODE NAME  
+     busybox  12345  username  7u  IPv4  123456  0t0    TCP *:8000 (LISTEN)  
+     ```  
    - Kill the process (replace `12345` with the actual PID):  
      ```bash  
      kill -9 12345  
@@ -147,4 +162,4 @@ Repository containing small introductory examples of web development languages, 
 <div align="left">  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="60" alt="HTML logo" />  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="60" alt="CSS logo" />  
-</div>
+</div>  
